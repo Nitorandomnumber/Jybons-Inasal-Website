@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jybon Inasal Talisay</title>
+  <link rel="shortcut icon" href="assets/Logo.jpg" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Fancybox CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+<!-- Fancybox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="assets/Logo.jpg" alt="Jybon Inasal" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery-section">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    
+    </div>
+</nav>
+
+<!-- Header Section classtion -->
+<header class="main-header" id="home">
+    <div class="container-fluid text-center text-white">
+      <h1>A go-to spot for locals and visitors in Talisay seeking a casual dining experience.</h1>
+      <button class="btn btn-primary mt-3" id="book-now-btn">Order now</button>
+    </div>
+</header>
+
+<!-- Services Section -->
+<section class="services py-5" id="services">
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-2 service-item">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-water service-icon mb-3"></i>
+                            <p>Unli-Rice, Unli-Delicious!</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Enjoy unlimited rice with our delicious meals. Satisfy your hunger without emptying your wallet!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 service-item">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-tshirt service-icon mb-3"></i>
+                            <p>Family-Friendly Atmosphere</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Share delicious food and create lasting memories in our warm and inviting atmosphere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 service-item">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-smile service-icon mb-3"></i>
+                            <p>Big Flavors, Small Prices</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Experience delicious food without breaking the bank; guilt-free indulgence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 service-item">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <i class="fas fa-box service-icon mb-3"></i>
+                            <p>Helpful Attendants</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Our staff are always ready to serve our costumers!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Wash Dry Fold Section -->
+<section class="wash-dry-fold py-5 ">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>Dine, eat, enjoy</h2>
+          <p class="lead text-highlight">Need a place to dine? <span class="text-emphasis">We serve authentic filipino food.</span></p>
+          <p>We Jybons Inasal will meet your cravings for authentic filipino food especially our inasal dishes like the chicken inasal and pork inasal. We will also serve you some filipino themed foods like adobo, sinigang and laing.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/img/yummy.jpg" alt="Laundry Service" class="img-fluid">
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Loyalty Card and Raffle Promo -->
+<section class="promo-section py-5" id="promos">
+    <div class="container">
+        <h2 class="text-center mb-5">Try Some of Our Best Sellers</h2>
+
+        <!-- First Promo (Loyalty Card) -->
+        <div class="row align-items-center promo-item mb-5">
+            <div class="col-md-6">
+                <img src="assets/img/chicken.jpg" alt="Loyalty Card" class="img-fluid promo-image">
+            </div>
+            <div class="col-md-6">
+                <div class="promo-text">
+                    <h4>Chicken Inasal</h4>
+                    <p class="lead">Come and try our most known <strong>BEST Selling Chicken Inasal</strong> (Paired with our unlimited rice + unlimited broth).</p>
+                    <p><strong>Description:</strong></p>
+                    <ul>
+                        <li>Meow Delicious</li>
+                        <li>Very Delicious, this is</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Promo (Raffle Promo) -->
+        <div class="row align-items-center promo-item">
+            <div class="col-md-6 order-md-2">
+                <img src="assets/img/placeholder.png" alt="Raffle Promo" class="img-fluid promo-image">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="promo-text">
+                    <h4>Meow</h4>
+                    <p class="lead"><strong>Meow</strong></p>
+                    <ul>
+                        <li>Meow</li>
+                        <li>Meow</li>
+                        <li>Meow</li>
+                        <li>Meow</li>
+                    </ul>
+                    <p><strong>Meow</strong></p>
+                    <ul>
+                        <li>Meow</li>
+                        <li>Meow</li>
+                        <li>Meow</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Clean. Safe. Friendly Section -->
+<section class="clean-safe-friendly text-center">
+    <div class="overlay">
+      <h2>DINE. EAT. ENJOY.</h2>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery-section" class="gallery-section py-">
+    <div class="container">
+        <h2 class="mb-4 text-center">Gallery</h2>
+        <div id="galleryGrid" class="gallery-grid">
+            <a href="assets/img/gallery1-large.jpg" data-fancybox="gallery" data-caption="Gallery Image 1">
+                <img src="assets/img/gallery1-thumb.jpg" alt="Gallery Image 1">
+            </a>
+            <a href="assets/img/gallery2-large.jpg" data-fancybox="gallery" data-caption="Gallery Image 2">
+                <img src="assets/img/gallery2-thumb.jpg" alt="Gallery Image 2">
+            </a>
+            <a href="assets/img/gallery3-large.jpg" data-fancybox="gallery" data-caption="Gallery Image 3">
+                <img src="assets/img/gallery3-thumb.jpg" alt="Gallery Image 3">
+            </a>
+        </div>
+        <div class="pagination-controls text-center mt-4">
+            <button id="prevPage" class="btn-pagination">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+            <span id="pageIndicator" class="page-indicator"></span>
+            <button id="nextPage" class="btn-pagination">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+  
+<!-- Customer Testimonials Section -->
+<section class="testimonials py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">What our customers have to say</h2>
+
+        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <div class="carousel-inner">
+                <!-- Testimonial 1 -->
+                <div class="carousel-item active">
+                    <div class="testimonial-box">
+                        <div class="testimonial-icon">
+                            <img src="assets/google-icon.png" alt="Google Icon" class="img-fluid">
+                        </div>
+                        <p>"Their chicken inasal is really yummy and delicious"</p>
+                        <div class="customer-name">
+                            <img src="assets/customer.png" alt="Customer 1" class="customer-img">
+                            <p>Steven A.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="carousel-item">
+                    <div class="testimonial-box">
+                        <div class="testimonial-icon">
+                            <img src="assets/google-icon.png" alt="Google Icon" class="img-fluid">
+                        </div>
+                        <p>"Their crew are very nice and approachable, a really friendly establishment!"</p>
+                        <div class="customer-name">
+                            <img src="assets/customer.png" alt="Customer 2" class="customer-img">
+                            <p>Steven B.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="carousel-item">
+                    <div class="testimonial-box">
+                        <div class="testimonial-icon">
+                            <img src="assets/google-icon.png" alt="Google Icon" class="img-fluid">
+                        </div>
+                        <p>"This is the first time I've tasted such fine food 10/10 would recommend eating here."</p>
+                        <div class="customer-name">
+                            <img src="assets/customer.png" alt="Customer 3" class="customer-img">
+                            <p>Steven C.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 4 -->
+                <div class="carousel-item">
+                    <div class="testimonial-box">
+                        <div class="testimonial-icon">
+                            <img src="assets/google-icon.png" alt="Google Icon" class="img-fluid">
+                        </div>
+                        <p>"They make it so easy with great customer service."</p>
+                        <div class="customer-name">
+                            <img src="assets/customer.png" alt="Customer 4" class="customer-img">
+                            <p>Steven D.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- FAQ Section -->
+<section class="faq py-5" id="faq">
+  <div class="container">
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="faq-item mb-4">
+          <h4>How does your laundry service work?</h4>
+          <p>Drop off your laundry, and we'll wash, dry, and fold it for you. We guarantee quick and professional results.</p>
+        </div>
+        <div class="faq-item mb-4">
+          <h4>What payment methods do you accept?</h4>
+          <p>We accept cash, credit/debit cards, and popular mobile payment methods.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="faq-item mb-4">
+          <h4>Can I track my laundry?</h4>
+          <p>Yes! With our app, you can track the status of your laundry and get notifications when it's ready for pick-up.</p>
+        </div>
+        <div class="faq-item mb-4">
+          <h4>Do you offer home delivery?</h4>
+          <p>Yes, we offer delivery services for select locations. Contact us to know more about availability.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact py-5" id="contact">
+    <div class="container">
+        <h2 class="text-center mb-4">Get In Touch With Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="mb-4">Contact Information</h4>
+                <ul class="list-unstyled contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> De Lara St., Talisay, Camarines Norte, Philippines</li>
+                    <li><i class="fas fa-phone-alt"></i> 0920 370 1969</li>
+                    <li><i class="fas fa-envelope"></i> JybonInasalTalisay@gmail.com</li>
+                    <li><i class="fas fa-clock"></i> Mon - Sun: 8:00 AM - 6:00 PM</li>
+                </ul>
+                <!-- Google Maps Integration -->
+                <h4 class="mt-5">Find Us on the Map</h4>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.2636145875647!2d122.92347739999999!3d14.1359399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3398af1556ad9605%3A0x625b591741694c04!2sJYBON%20INASAL%20Unlimited%20Rice%20TALISAY!5e0!3m2!1sen!2sph!4v1650000000000!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4 class="mb-4">Send Us A Message</h4>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="contactName">Full Name</label>
+                        <input type="text" class="form-control" id="contactName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message</label>
+                        <textarea class="form-control" id="contactMessage" rows="5" placeholder="Write your message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactRating">Rate Us</label>
+                        <div class="rating" id="contactRating">
+                            <span class="star" data-value="5">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="1">&#9733;</span>
+                        </div>
+                        <input type="hidden" id="ratingValue" name="rating" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2024 Jybon Inasal Talisay. All Rights Reserved.</p>
+  <div class="social-icons mt-3">
+    <a href="https://www.facebook.com/jybon2019" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.facebook.com/jybon2019" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.facebook.com/jybon2019" class="text-white"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+<!-- Booking Modal -->
+<div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="bookingModalLabel">Order for Pickup</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="form-group mb-3">
+                <input type="text" class="form-control" id="foodSearch" placeholder="Search for food...">
+            </div>
+            <div class="modal-body">
+                <form id="bookingForm">
+                    <h6 class="font-weight-bold mb-3">Rice Meals</h6>
+                    <div class="custom-control custom-checkbox">
+                        <div class="custom-control custom-checkbox mb-2 food-item">
+                            <input type="checkbox" id="hitaInasal" name="service" value="Hita Inasal - ₱100" class="custom-control-input" required>
+                            <label class="custom-control-label d-flex align-items-center" for="hitaInasal">
+                                <img src="assets/img/hita.jpg" alt="Hita Inasal" class="mr-2 custom-radio-img">
+                                <div>
+                                    <div class="font-weight-bold">Hita Inasal</div>
+                                    <div class="text-muted small">Experience the ultimate comfort food with our tender, perfectly grilled Hita Inasal. Marinated in a zesty blend of spices and herbs, each drumstick is flame-kissed to achieve a golden, smoky char that seals in the juices. The result? A mouthwatering combination of crisp, caramelized skin and juicy, flavorful meat. Pair it with rice for a meal that’s as satisfying as it is unforgettable!</div>
+                                    <div>₱100</div>
+                                    <input type="number" class="quantity-input" min="1" value="1" style="width: 60px; margin-top: 5px;">
+                                </div>
+                            </label>
+                        </div>
+                    
+                        <div class="custom-control custom-checkbox mb-2 food-item">
+                            <input type="checkbox" id="pitsoInasal" name="service" value="Pitso Inasal - ₱105" class="custom-control-input" required>
+                            <label class="custom-control-label d-flex align-items-center" for="pitsoInasal">
+                                <img src="assets/img/pitso.jpg" alt="Pitso Inasal" class="mr-2 custom-radio-img">
+                                <div>
+                                    <div class="font-weight-bold">Pitso Inasal</div>
+                                    <div class="text-muted small">Savor the perfect balance of flavor and tenderness with of our Pitso Inasal. Marinated in a savory blend of herbs and spices, each fillet is carefully flame-grilled to achieve a golden, smoky sear while remaining incredibly juicy inside. Bursting with flavor in every bite, this protein-packed dish is ideal for a satisfying meal.</div>
+                                    <div>₱105</div>
+                                    <input type="number" class="quantity-input" min="1" value="1" style="width: 60px; margin-top: 5px;">
+                                </div>
+                            </label>
+                        </div>
+                    
+                        <div class="custom-control custom-checkbox mb-2 food-item">
+                            <input type="checkbox" id="porkchopInasal" name="service" value="Porkchop Inasal - ₱100" class="custom-control-input" required>
+                            <label class="custom-control-label d-flex align-items-center" for="porkchopInasal">
+                                <img src="assets/img/porkchop1.jpg" alt="Porkchop Inasal" class="mr-2 custom-radio-img">
+                                <div>
+                                    <div class="font-weight-bold">Porkchop Inasal</div>
+                                    <div class="text-muted small">Indulge in the authentic flavors of our Porkchop Inasal, a Filipino favorite! Marinated in a savory blend of calamansi, soy sauce, garlic, and lemongrass, each pork chop is expertly grilled over an open flame to achieve a golden, smoky char with juicy, tender meat inside. this dish is a perfect harmony of smoky, zesty, and savory goodness.</div>
+                                    <div>₱100</div>
+                                    <input type="number" class="quantity-input" min="1" value="1" style="width: 60px; margin-top: 5px;">
+                                </div>
+                            </label>
+                        </div>
+                        
+                        <div class="custom-control custom-checkbox mb-2 food-item">
+                            <input type="checkbox" id="sizzlingpusitRice" name="service" value="Sizzling Pusit /w Rice - ₱105" class="custom-control-input" required>
+                            <label class="custom-control-label d-flex align-items-center" for="sisigRice">
+                                <img src="assets/img/pusitrice.jpg" alt="Sizzling Pusit with Rice" class="mr-2 custom-radio-img">
+                                <div>
+                                    <div class="font-weight-bold">Sizzling Pusit /w Rice</div>
+                                    <div class="text-muted small">Dive into the flavors of the sea with our Sizzling Pusit, a dish that’s as aromatic as it is delicious. Tender squid rings are marinated in a savory blend of garlic, soy sauce, and calamansi, then sautéed to perfection and served on a sizzling plate to lock in the smoky goodness. Accompanied by a generous serving of steamed rice, this hearty meal delivers a perfect balance of savory, and smoky flavors in every bite.</div>
+                                    <div>₱105</div>
+                                    <input type="number" class="quantity-input" min="1" value="1" style="width: 60px; margin-top: 5px;">
+                                </div>
+                            </label>
+                        </div>
+                    
+                        <div class="custom-control custom-checkbox mb-2 food-item">
+                            <input type="checkbox" id="porkchopLaing" name="service" value="Porkchop w/ Laing - ₱105" class="custom-control-input" required>
+                            <label class="custom-control-label d-flex align-items-center" for="porkchopLaing">
+                                <img src="path/to/porkchop_laing.jpg" alt="Porkchop with Laing" class="mr-2" width="50" height="50">
+                                <div>
+                                    <div class="font-weight-bold">Porkchop w/ Laing</div>
+                                    <div class="text-muted small">Experience a delightful fusion of flavors with our Porkchop with Laing. A tender, juicy pork chop grilled to perfection and paired with rich, creamy laing—a classic dish made from taro leaves simmered in coconut milk, chili, and aromatic spices. The smoky, savory notes of the pork perfectly complement the bold and slightly spicy flavors of the laing. Served with a side of steamed rice, this dish is a comforting, flavorful treat you won’t want to miss!</div>
+                                    <div>₱105</div>
+                                    <input type="number" class="quantity-input" min="1" value="1" style="width: 60px; margin-top: 5px;">
+                                </div>
+                            </label>
+                        </div> 
+
+                        <div class="custom-control custom-checkbox mb-2 food-item">
+                            <input type="checkbox" id="chopsueyrice" name="service" value="Chopsuey w/ Rice - ₱105" class="custom-control-input" required>
+                            <label class="custom-control-label d-flex align-items-center" for="chopsueyrice">
+                                <img src="assets/img/choprice.jpg" alt="Chopsuey with Rice" class="mr-2 custom-radio-img">
+                                <div>
+                                    <div class="font-weight-bold">Chopsuey w/ Rice</div>
+                                    <div class="text-muted small">Delight in the freshness of our Chopsuey with Rice, a vibrant mix of crunchy stir-fried vegetables like broccoli, carrots, cabbage, and bell peppers, sautéed with tender chicken, shrimp, or pork in a savory, umami-rich sauce. Served with a generous portion of steamed rice, this dish is a perfect balance of wholesome, hearty, and flavorful goodness. A satisfying meal that’s as colorful as it is delicious!</div>
+                                    <div>₱105</div>
+                                    <input type="number" class="quantity-input" min="1" value="1" style="width: 60px; margin-top: 5px;">
+                                </div>
+                            </label>
+                        </div> 
+
+                    <h6 class="font-weight-bold mt-4">Silog Meals</h6>
+                    <div class="custom-checkbox-group">   
+
+                    <h6 class="font-weight-bold mt-4">Platters</h6>
+                    <div class="custom-checkbox-group">
+
+                    <h6 class="font-weight-bold mt-4">Bilao</h6>
+                    <div class="custom-checkbox-group">
+
+                    <h6 class="font-weight-bold mt-4">Extra Services</h6>
+                    <div class="custom-checkbox-group">
+                        <div class="custom-control custom-checkbox mb-2">
+                            <input type="checkbox" class="custom-control-input" id="extraWash" name="extras" value="Extra Wash">
+                            <label class="custom-control-label" for="extraWash">Extra Rice - ₱10</label>
+                        </div>
+                        <div class="custom-control custom-checkbox mb-2">
+                            <input type="checkbox" class="custom-control-input" id="extraRinse" name="extras" value="Extra Rinse">
+                            <label class="custom-control-label" for="extraRinse">Extra Soup - ₱Free</label>
+                        </div>
+                        <div class="custom-control custom-checkbox mb-2">
+                            <input type="checkbox" class="custom-control-input" id="extraSpin" name="extras" value="Extra Spin">
+                            <label class="custom-control-label" for="extraSpin">Extra Chicken Inasal - ₱50</label>
+                        </div>
+                        <div class="custom-control custom-checkbox mb-2">
+                            <input type="checkbox" class="custom-control-input" id="extraDry" name="extras" value="Extra 10min. Dryer">
+                            <label class="custom-control-label" for="extraDry">Extra - ₱10</label>
+                        </div>
+                        <div class="custom-control custom-checkbox mb-2">
+                            <input type="checkbox" class="custom-control-input" id="foldService" name="extras" value="Fold Service">
+                            <label class="custom-control-label" for="foldService">Meow - ₱30</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-4">
+                        <label for="pickupDate">Pickup Date</label>
+                        <input type="date" class="form-control" id="pickupDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pickupTime">Pickup Time</label>
+                        <input type="time" class="form-control" id="pickupTime" required>
+                    </div>
+                    
+                    <button type="button" class="btn btn-primary btn-block mt-3" id="getReceiptBtn">Get Receipt</button>
+
+<!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Booking Success!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <i class="fas fa-check-circle fa-4x text-success mb-3"></i>
+                <h4 class="mb-3">Payment completed successfully!</h4>
+                <p>Your pickup has been successfully booked. Thank you for choosing our service.</p>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery Modal -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="galleryModalLabel">Photo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="" id="modalImage" class="img-fluid" alt="Selected Photo">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Scripts -->
+<script src="script.js"></script>
+</body>
+</html>
